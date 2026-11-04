@@ -1,0 +1,6 @@
+type,type_name,all,dev,test,test_with_gold
+norm,Norm identification,160,32,128,124
+interp,Interpretation of provisions,130,26,104,98
+applic,Applicability conditions,110,22,88,83
+proc,Procedural requirements,100,20,80,76
+total,Total,500,100,400,381

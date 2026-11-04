@@ -1,0 +1,5 @@
+comparison,kappa,ci_lo,ci_hi,n
+judge_vs_human_hallucination,0.710145,0.525892,0.861419,100
+judge_vs_human_legal_correctness_weighted,0.637506,0.516480,0.741252,100
+annotator_A_vs_B_legal_correctness_weighted,0.780499,0.681529,0.866473,100
+annotator_A_vs_B_hallucination,0.785276,0.604966,0.921053,100

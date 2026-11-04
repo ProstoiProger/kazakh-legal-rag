@@ -1,0 +1,5 @@
+wall_clock_seconds 99.2
+cpu_seconds 98.6
+cpu Intel(R) Xeon(R) Processor (2 logical cores)
+master_seed 2026
+results_summary_sha256 e67c431d75a228b2bf4162315d8ea2dc82bf1bed3def5d51ca64f8ddb5cca2cc

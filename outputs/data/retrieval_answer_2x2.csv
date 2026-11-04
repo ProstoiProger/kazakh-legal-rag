@@ -1,0 +1,13 @@
+model,group,questions,fully_correct,not_fully_correct,share_fully_correct_pct
+GPT-6.1,gold_in_top5,269,211,58,78.438662
+GPT-6.1,gold_not_in_top5,112,26,86,23.214286
+GPT-6.1,no_linked_gold,19,11,8,57.894737
+KazLLM-1.0-8B,gold_in_top5,269,138,131,51.301115
+KazLLM-1.0-8B,gold_not_in_top5,112,20,92,17.857143
+KazLLM-1.0-8B,no_linked_gold,19,10,9,52.631579
+Llama-3.1-8B,gold_in_top5,269,111,158,41.263941
+Llama-3.1-8B,gold_not_in_top5,112,12,100,10.714286
+Llama-3.1-8B,no_linked_gold,19,5,14,26.315789
+Qwen3.5-9B,gold_in_top5,269,145,124,53.903346
+Qwen3.5-9B,gold_not_in_top5,112,19,93,16.964286
+Qwen3.5-9B,no_linked_gold,19,8,11,42.105263

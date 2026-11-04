@@ -1,0 +1,57 @@
+family,comparison,metric,delta,ci_lo,ci_hi,test,p_raw,discordant_b,discordant_c,n,value_a,value_b,p_holm,significant,designed,matches_design
+F1,SA - Sentence,R10,16.229221,11.636045,20.822397,"approximate randomization (10,000 sign flips)",0.000100,,,381,74.978128,58.748906,0.000900,True,sig,True
+F1,SA - Sentence,MRR,13.587124,10.048379,17.075659,"approximate randomization (10,000 sign flips)",0.000100,,,381,54.371928,40.784804,0.000900,True,sig,True
+F1,SA - Sentence,nDCG10,13.627264,10.173598,17.023695,"approximate randomization (10,000 sign flips)",0.000100,,,381,58.773507,45.146243,0.000900,True,sig,True
+F1,SA - Fixed,R10,9.623797,5.599300,13.648294,"approximate randomization (10,000 sign flips)",0.000100,,,381,74.978128,65.354331,0.000900,True,sig,True
+F1,SA - Fixed,MRR,7.121776,4.156667,10.082434,"approximate randomization (10,000 sign flips)",0.000100,,,381,54.371928,47.250152,0.000900,True,sig,True
+F1,SA - Fixed,nDCG10,7.425274,4.539740,10.298808,"approximate randomization (10,000 sign flips)",0.000100,,,381,58.773507,51.348233,0.000900,True,sig,True
+F1,SA - Sliding,R10,5.205599,1.881015,8.530184,"approximate randomization (10,000 sign flips)",0.003800,,,381,74.978128,69.772528,0.011399,True,sig,True
+F1,SA - Sliding,MRR,1.481565,-1.127484,4.049984,"approximate randomization (10,000 sign flips)",0.260074,,,381,54.371928,52.890363,0.260074,False,ns,True
+F1,SA - Sliding,nDCG10,2.396904,-0.021994,4.707172,"approximate randomization (10,000 sign flips)",0.051495,,,381,58.773507,56.376603,0.102990,False,ns,True
+F2,Hybrid linear - BM25,R10,14.610674,10.761155,18.591426,"approximate randomization (10,000 sign flips)",0.000100,,,381,75.371829,60.761155,0.001200,True,sig,True
+F2,Hybrid linear - BM25,MRR,10.202756,6.710783,13.743056,"approximate randomization (10,000 sign flips)",0.000100,,,381,54.553941,44.351185,0.001200,True,sig,True
+F2,Hybrid linear - BM25,nDCG10,11.305948,8.049718,14.623586,"approximate randomization (10,000 sign flips)",0.000100,,,381,59.242458,47.936510,0.001200,True,sig,True
+F2,Hybrid linear - BGE-M3,R10,6.386702,2.974628,9.798775,"approximate randomization (10,000 sign flips)",0.000400,,,381,75.371829,68.985127,0.003600,True,sig,True
+F2,Hybrid linear - BGE-M3,MRR,1.660209,-0.982806,4.317073,"approximate randomization (10,000 sign flips)",0.211379,,,381,54.553941,52.893732,1.000000,False,ns,True
+F2,Hybrid linear - BGE-M3,nDCG10,3.625906,1.112490,6.083424,"approximate randomization (10,000 sign flips)",0.004700,,,381,59.242458,55.616552,0.037596,True,sig*,True
+F2,RRF - linear,R10,-0.349956,-3.193351,2.537183,"approximate randomization (10,000 sign flips)",0.836116,,,381,75.021872,75.371829,1.000000,False,ns,True
+F2,RRF - linear,MRR,-0.378233,-2.782894,1.930482,"approximate randomization (10,000 sign flips)",0.757524,,,381,54.175708,54.553941,1.000000,False,ns,True
+F2,RRF - linear,nDCG10,-0.893277,-2.979833,1.081598,"approximate randomization (10,000 sign flips)",0.380662,,,381,58.349181,59.242458,1.000000,False,ns,True
+F2,Reranker - none,R10,0.699913,-2.668416,4.111986,"approximate randomization (10,000 sign flips)",0.713229,,,381,76.071741,75.371829,1.000000,False,ns,True
+F2,Reranker - none,MRR,1.921869,-1.367545,5.159598,"approximate randomization (10,000 sign flips)",0.252475,,,381,56.475810,54.553941,1.000000,False,ns,True
+F2,Reranker - none,nDCG10,1.766718,-1.153202,4.666579,"approximate randomization (10,000 sign flips)",0.236976,,,381,61.009176,59.242458,1.000000,False,ns,True
+F2s,Reranker - none,P1,2.624672,-2.099738,7.349081,exact McNemar,0.326134,47.000000,37.000000,381,45.144357,42.519685,0.326134,False,ns,True
+F3,GPT-6.1: RAG - LLM-only,cit,49.291667,43.875000,54.458333,"approximate randomization (10,000 sign flips)",0.000100,,,400,66.208333,16.916667,0.000800,True,sig,True
+F3,GPT-6.1: RAG - LLM-only,sup,30.250000,23.750000,36.500000,exact McNemar,0.000000,163.000000,42.000000,400,76.500000,46.250000,0.000000,True,sig,True
+F3,GPT-6.1: RAG - LLM-only,hal,-20.250000,-25.750000,-15.000000,exact McNemar,0.000000,29.000000,110.000000,400,13.750000,34.000000,0.000000,True,sig,True
+F3,GPT-6.1: RAG - LLM-only,cor,18.125000,13.750000,22.375000,"approximate randomization (10,000 sign flips)",0.000100,,,400,73.500000,55.375000,0.000800,True,sig,True
+F3,KazLLM-1.0-8B: RAG - LLM-only,cit,42.166667,37.291667,46.916667,"approximate randomization (10,000 sign flips)",0.000100,,,400,47.875000,5.708333,0.000800,True,sig,True
+F3,KazLLM-1.0-8B: RAG - LLM-only,sup,34.500000,28.250000,40.750000,exact McNemar,0.000000,172.000000,34.000000,400,59.250000,24.750000,0.000000,True,sig,True
+F3,KazLLM-1.0-8B: RAG - LLM-only,hal,-31.750000,-38.000000,-25.500000,exact McNemar,0.000000,38.000000,165.000000,400,24.500000,56.250000,0.000000,True,sig,True
+F3,KazLLM-1.0-8B: RAG - LLM-only,cor,23.250000,19.250000,27.378125,"approximate randomization (10,000 sign flips)",0.000100,,,400,58.125000,34.875000,0.000800,True,sig,True
+F3,Llama-3.1-8B: RAG - LLM-only,cit,2.708333,-0.333333,5.791667,"approximate randomization (10,000 sign flips)",0.079792,,,400,7.291667,4.583333,0.079792,False,ns,True
+F3,Llama-3.1-8B: RAG - LLM-only,sup,29.500000,23.750000,35.250000,exact McNemar,0.000000,149.000000,31.000000,400,48.000000,18.500000,0.000000,True,sig,True
+F3,Llama-3.1-8B: RAG - LLM-only,hal,-36.000000,-41.750000,-30.000000,exact McNemar,0.000000,27.000000,171.000000,400,28.750000,64.750000,0.000000,True,sig,True
+F3,Llama-3.1-8B: RAG - LLM-only,cor,19.625000,15.000000,24.125000,"approximate randomization (10,000 sign flips)",0.000100,,,400,46.625000,27.000000,0.000800,True,sig,True
+F3,Qwen3.5-9B: RAG - LLM-only,cit,43.833333,39.000000,48.791667,"approximate randomization (10,000 sign flips)",0.000100,,,400,51.750000,7.916667,0.000800,True,sig,True
+F3,Qwen3.5-9B: RAG - LLM-only,sup,32.500000,26.250000,39.000000,exact McNemar,0.000000,168.000000,38.000000,400,61.000000,28.500000,0.000000,True,sig,True
+F3,Qwen3.5-9B: RAG - LLM-only,hal,-29.250000,-35.750000,-22.750000,exact McNemar,0.000000,41.000000,158.000000,400,22.750000,52.000000,0.000000,True,sig,True
+F3,Qwen3.5-9B: RAG - LLM-only,cor,18.625000,13.875000,23.500000,"approximate randomization (10,000 sign flips)",0.000100,,,400,57.375000,38.750000,0.000800,True,sig,True
+F4,GPT-6.1: Kazakh - Russian,hal,-0.500000,-4.250000,3.500000,exact McNemar,0.900653,31.000000,33.000000,400,13.750000,14.250000,1.000000,False,ns,True
+F4,GPT-6.1: Kazakh - Russian,cor,0.375000,-2.125000,2.750000,"approximate randomization (10,000 sign flips)",0.837516,,,400,73.500000,73.125000,1.000000,False,ns,True
+F4,KazLLM-1.0-8B: Kazakh - Russian,hal,-3.250000,-8.000000,1.500000,exact McNemar,0.208174,39.000000,52.000000,400,24.500000,27.750000,1.000000,False,ns,True
+F4,KazLLM-1.0-8B: Kazakh - Russian,cor,5.500000,2.625000,8.500000,"approximate randomization (10,000 sign flips)",0.000400,,,400,58.125000,52.625000,0.003200,True,sig,True
+F4,Llama-3.1-8B: Kazakh - Russian,hal,1.750000,-2.750000,6.500000,exact McNemar,0.525015,48.000000,41.000000,400,28.750000,27.000000,1.000000,False,ns,True
+F4,Llama-3.1-8B: Kazakh - Russian,cor,-1.750000,-4.750000,1.250000,"approximate randomization (10,000 sign flips)",0.289071,,,400,46.625000,48.375000,1.000000,False,ns,True
+F4,Qwen3.5-9B: Kazakh - Russian,hal,0.750000,-3.500000,5.000000,exact McNemar,0.817554,39.000000,36.000000,400,22.750000,22.000000,1.000000,False,ns,True
+F4,Qwen3.5-9B: Kazakh - Russian,cor,-1.250000,-4.250000,1.625000,"approximate randomization (10,000 sign flips)",0.463554,,,400,57.375000,58.625000,1.000000,False,ns,True
+F5,BM25: w/o transliteration - full,R10,-4.286964,-6.124234,-2.668416,"approximate randomization (10,000 sign flips)",0.000100,,,381,56.474191,60.761155,0.000600,True,sig,True
+F5,BM25: w/o boilerplate removal - full,R10,-2.712161,-4.374453,-1.224847,"approximate randomization (10,000 sign flips)",0.000600,,,381,58.048994,60.761155,0.003000,True,sig,True
+F5,BM25: w/o short-fragment merging - full,R10,-0.787402,-1.968504,0.393701,"approximate randomization (10,000 sign flips)",0.276172,,,381,59.973753,60.761155,0.492351,False,ns,True
+F5,Hybrid: w/o transliteration - full,R10,-1.093613,-2.493438,0.262467,"approximate randomization (10,000 sign flips)",0.141786,,,381,74.278215,75.371829,0.492351,False,ns,True
+F5,Hybrid: w/o boilerplate removal - full,R10,-1.399825,-3.324584,0.481190,"approximate randomization (10,000 sign flips)",0.176482,,,381,73.972003,75.371829,0.492351,False,ns,True
+F5,Hybrid: w/o short-fragment merging - full,R10,-0.612423,-1.399825,0.000000,"approximate randomization (10,000 sign flips)",0.123088,,,381,74.759405,75.371829,0.492351,False,ns,True
+F6,GPT-6.1: k=3 - k=5,cor,-2.500000,-5.375000,0.250000,"approximate randomization (10,000 sign flips)",0.100290,,,400,71.000000,73.500000,0.401160,False,ns,True
+F6,GPT-6.1: k=10 - k=5,cor,0.750000,-2.000000,3.500000,"approximate randomization (10,000 sign flips)",0.658834,,,400,74.250000,73.500000,0.860314,False,ns,True
+F6,Qwen3.5-9B: k=3 - k=5,cor,-1.750000,-4.750000,1.125000,"approximate randomization (10,000 sign flips)",0.286771,,,400,55.625000,57.375000,0.860314,False,ns,True
+F6,Qwen3.5-9B: k=10 - k=5,cor,-1.500000,-4.500000,1.375000,"approximate randomization (10,000 sign flips)",0.361864,,,400,55.875000,57.375000,0.860314,False,ns,True

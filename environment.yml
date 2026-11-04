@@ -1,0 +1,9 @@
+# Conda alternative to requirements.txt (same pinned versions, installed with pip).
+name: kazakh-legal-rag-sim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.17
+  - pip
+  - pip:
+      - -r requirements.txt

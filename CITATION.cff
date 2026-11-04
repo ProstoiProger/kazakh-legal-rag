@@ -1,0 +1,30 @@
+# TEAM: replace the repository URL (same as \repourl in the article) and, after a
+# tagged release on Zenodo, add the DOI under "identifiers".
+cff-version: 1.2.0
+message: "If you use this code or its outputs, please cite it as below."
+type: software
+title: "Code and expected results for: Development and Research of Reliable Information Retrieval Methods for Kazakh-Language Question Answering Systems Based on External Knowledge Sources"
+abstract: >-
+  Seeded simulation (master seed 2026) that produces the expected values, tables
+  and figures of the Results section of the article, together with the generated
+  outputs. The values are expected values from a simulation, not measurements;
+  the retrieval and generation pipeline will be added when the experiments are run.
+authors:
+  - family-names: Orazgali
+    given-names: Azamat
+    affiliation: "Astana IT University"
+  - family-names: Bolatkhan
+    given-names: Yerassyl
+    affiliation: "Astana IT University"
+  - family-names: Amirbekov
+    given-names: Adilzhan
+    affiliation: "Astana IT University"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/REPLACE-ME/kazakh-legal-rag"
+keywords:
+  - Kazakh
+  - legal question answering
+  - retrieval-augmented generation
+  - chunking
+  - hybrid retrieval
