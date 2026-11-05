@@ -1,14 +1,18 @@
-# TEAM: replace the repository URL (same as \repourl in the article) and, after a
-# tagged release on Zenodo, add the DOI under "identifiers".
+# TEAM: replace the repository URL (same as \repourl in the article), confirm the
+# license choice (MIT), and, after the v0.1.0 release is archived on Zenodo, add the
+# DOI under "identifiers".
 cff-version: 1.2.0
 message: "If you use this code or its outputs, please cite it as below."
 type: software
-title: "Code and expected results for: Development and Research of Reliable Information Retrieval Methods for Kazakh-Language Question Answering Systems Based on External Knowledge Sources"
+title: "Code and assumed results for: Development and Research of Reliable Information Retrieval Methods for Kazakh-Language Question Answering Systems Based on External Knowledge Sources"
 abstract: >-
-  Seeded simulation (master seed 2026) that produces the expected values, tables
-  and figures of the Results section of the article, together with the generated
-  outputs. The values are expected values from a simulation, not measurements;
-  the retrieval and generation pipeline will be added when the experiments are run.
+  Seeded simulation (master seed 2026) of a planned study of Kazakh legal
+  retrieval-augmented question answering, with its outputs. No experiment has
+  been run: every reported mean is an author-specified target reached by
+  calibration, and the pattern of significant and non-significant tests is
+  pre-specified (DESIGNED in src/simulate.py). The outputs illustrate the
+  planned analysis and contain no empirical information. The retrieval and
+  generation pipeline will be added when the experiments are run.
 authors:
   - family-names: Orazgali
     given-names: Azamat

@@ -2498,7 +2498,7 @@
   },
   {
    "family": "F5",
-   "comparison": "BM25: w/o transliteration - full",
+   "comparison": "BM25: w/o homoglyph normalization - full",
    "metric": "R10",
    "delta": -4.286964,
    "ci_lo": -6.124234,
@@ -2555,7 +2555,7 @@
   },
   {
    "family": "F5",
-   "comparison": "Hybrid: w/o transliteration - full",
+   "comparison": "Hybrid: w/o homoglyph normalization - full",
    "metric": "R10",
    "delta": -1.093613,
    "ci_lo": -2.493438,
